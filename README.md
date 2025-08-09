@@ -1,6 +1,6 @@
 # Public Github Website
 
-## Choose Theme
+### Choose Theme
 https://pages.github.com/themes/
 
 https://github.com/pages-themes/hacker
