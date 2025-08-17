@@ -1,8 +1,10 @@
+---
+layout: default
+---
+
 # Window Managers and Desktop Environments
 
-## Tiling Window Managers
-
-| Window Manager/Desktop Environment | Type                  | Support       | Configuration          | Key Features                               |
+| Name                               | Type                  | Support       | Configuration          | Key Features                               |
 |------------------------------------|-----------------------|---------------|------------------------|--------------------------------------------|
 | **i3-wm**                          | Static Tiling         | X11           | Text-based             | Simple, resource-efficient, no Wayland support. |
 | **Sway**                           | Static Tiling         | Wayland       | Similar to i3          | Modern, i3-compatible, better graphics performance. |
@@ -13,11 +15,6 @@
 | **Labwc**                          | Dynamic Tiling        | Wayland       | Text-based             | Lightweight, simple, and efficient.       |
 | **River**                          | Dynamic Tiling        | Wayland       | Text-based             | Dynamic tiling with a focus on simplicity. |
 | **Xmonad**                         | Dynamic Tiling        | X11           | Haskell-based          | Highly customizable, written in Haskell.  |
-
-## Desktop Environments
-
-| Desktop Environment                | Type                  | Support       | Configuration          | Key Features                               |
-|------------------------------------|-----------------------|---------------|------------------------|--------------------------------------------|
 | **KDE Plasma**                     | Desktop Environment    | X11/Wayland   | Graphical Configuration | Modern, feature-rich, highly customizable. |
 | **GNOME**                          | Desktop Environment    | X11/Wayland   | Graphical Configuration | User-friendly, modern interface.           |
 | **Xfce4**                          | Desktop Environment    | X11           | Graphical Configuration | Lightweight, customizable, resource-efficient. |
