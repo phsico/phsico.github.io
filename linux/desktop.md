@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Window Managers and Desktop Environments
 
 | Name                               | Type                  | Support       | Configuration          | Key Features                               |
