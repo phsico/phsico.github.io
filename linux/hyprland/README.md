@@ -40,11 +40,17 @@ wget -O ~/.config/waybar/config.jsonc https://raw.githubusercontent.com/phsico/p
 https://github.com/phsico/phsico.github.io/blob/main/linux/hyprland/waybar/style.css
 https://raw.githubusercontent.com/phsico/phsico.github.io/refs/heads/main/linux/hyprland/waybar/style.css
 ~/.config/waybar/style.css
+```
+wget -O ~/.config/waybar/style.css https://raw.githubusercontent.com/phsico/phsico.github.io/refs/heads/main/linux/hyprland/waybar/style.css
+```
 
 #### Kitty
 https://github.com/phsico/phsico.github.io/blob/main/linux/hyprland/kitty/kitty.conf
 https://raw.githubusercontent.com/phsico/phsico.github.io/refs/heads/main/linux/hyprland/kitty/kitty.conf
 ~/.config/kitty/kitty.conf
+```
+wget -O ~/.config/kitty/kitty.conf https://raw.githubusercontent.com/phsico/phsico.github.io/refs/heads/main/linux/hyprland/kitty/kitty.conf
+```
 
 #### Wiki
 https://wiki.hypr.land/
