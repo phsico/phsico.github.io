@@ -28,4 +28,5 @@ wget -O ~/.config/kitty/kitty.conf https://raw.githubusercontent.com/phsico/phsi
 
 #### Wiki
 https://wiki.hypr.land/
+
 https://wiki.archlinux.org/title/Hyprland
