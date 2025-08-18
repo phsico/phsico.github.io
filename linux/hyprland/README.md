@@ -1,5 +1,5 @@
-# Hyprland Video EP1
-https://www.youtube.com/watch?v=2CP_9-jCV6A&t
+# Hyprland Videos
+[https://www.youtube.com/watch?v=2CP_9-jCV6A&t](https://www.youtube.com/watch?v=2CP_9-jCV6A&list=PLsz00TDipIfeDrFeSA56W1wPrYYg_Kd-b)
 
 
 
