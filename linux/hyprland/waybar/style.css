@@ -1,0 +1,202 @@
+* {
+font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+font-size: 24px;
+}
+
+window#waybar {
+    background-color: rgba(43, 48, 59, 0.5);
+    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.1;
+}
+
+window#waybar.termite {
+    background-color: transparent; /* Hintergrund transparent */
+}
+
+window#waybar.chromium {
+    background-color: transparent; /* Hintergrund transparent */
+    border: none;
+}
+
+button {
+    box-shadow: inset 0 -3px transparent;
+    border: none;
+    border-radius: 0;
+}
+
+button:hover {
+    background: inherit;
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+#pulseaudio:hover {
+background-color: rgba(255, 255, 255, 0.2); /* Leicht transparent */
+}
+
+#workspaces button {
+padding: 0 5px;
+background-color: transparent; /* Hintergrund transparent */
+color: #ffffff;
+}
+
+#workspaces button:hover {
+background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.focused {
+background-color: rgba(100, 114, 125, 0.5); /* Leicht transparent */
+box-shadow: inset 0 -3px #ffffff;
+}
+
+#workspaces button.urgent {
+background-color: #eb4d4b; /* Rot für dringende Benachrichtigungen */
+}
+
+#mode {
+background-color: transparent; /* Hintergrund transparent */
+box-shadow: inset 0 -3px #ffffff;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd {
+padding: 0 10px;
+color: #ffffff; /* Schriftfarbe weiß */
+background-color: transparent; /* Hintergrund transparent */
+}
+
+#window,
+#workspaces {
+margin: 0 4px;
+}
+
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+
+#battery.charging, #battery.plugged {
+background-color: transparent; /* Hintergrund transparent */
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+#battery.critical:not(.charging) {
+background-color: #f53c3c; /* Kritisch rot */
+color: #ffffff;
+animation-name: blink;
+animation-duration: 0.5s;
+animation-timing-function: steps(12);
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+#power-profiles-daemon {
+padding-right: 15px;
+}
+
+label:focus {
+    background-color: transparent; /* Hintergrund transparent */
+}
+
+#network.disconnected {
+color: #ff0000; /* Rot für getrennte Netzwerke */
+}
+
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#temperature {
+color: #ffffff; /* Schriftfarbe weiß */
+}
+
+#tray {
+background-color: transparent; /* Hintergrund transparent */
+}
+
+#idle_inhibitor {
+background-color: transparent; /* Hintergrund transparent */
+}
+
+#mpd {
+background-color: transparent; /* Hintergrund transparent */
+}
+
+#language {
+color: #ffffff; /* Schriftfarbe weiß */
+padding: 0 5px;
+margin: 0 5px;
+min-width: 16px;
+}
+
+#keyboard-state {
+color: #ffffff; /* Schriftfarbe weiß */
+padding: 0 0px;
+margin: 0 5px;
+min-width: 16px;
+}
+
+#keyboard-state > label {
+padding: 0 5px;
+}
+
+#keyboard-state > label.locked {
+background: rgba(0, 0, 0, 0.2);
+}
+
+#scratchpad {
+background: rgba(0, 0, 0, 0.2); /* Leicht transparent */
+}
+
+#scratchpad.empty {
+background-color: transparent; /* Hintergrund transparent */
+}
+
+#privacy {
+padding: 0;
+}
+
+#privacy-item {
+        padding: 0 5px;
+        color: white;
+    }
+
+    #privacy-item.screenshare {
+        background-color: #cf5700;
+    }
+
+    #privacy-item.audio-in {
+        background-color: #1ca000;
+    }
+
+    #privacy-item.audio-out {
+        background-color: #0069d4;
+    }
