@@ -1,4 +1,4 @@
-# Pacman Flags in Arch Linux
+# Arch Linux - Pacman
 
 | Flag        | Meaning                                                                                     |
 |-------------|---------------------------------------------------------------------------------------------|
@@ -27,8 +27,6 @@
 | `-Qc`      | Show the configuration files for a package.                                               |
 | `-Qp`      | Show information about a package in a local file without installing it.                   |
 
-## Conclusion
 
-This table summarizes the various flags available in `pacman`, which can help you manage packages effectively in Arch Linux.
 
 https://wiki.archlinux.org/title/Pacman
