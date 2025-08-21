@@ -24,6 +24,8 @@
 
   https://www.kali.org/
 
+  - Kali Purple
+
   https://tails.net/
 
   https://www.whonix.org/
