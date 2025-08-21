@@ -8,9 +8,6 @@
 
 - [Arch Linux](https://archlinux.org/)
 - [CachyOS](https://cachyos.org/)
-
-#### Cyber Security
-
 - [BlackArch](https://www.blackarch.org/)
 - [Exodia OS](https://exodia-os.github.io/)
 
