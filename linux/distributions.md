@@ -30,9 +30,6 @@
 
   https://www.qubes-os.org/
 
-
-#### Other Privacy
-
   https://www.pureos.net/
 
   https://subgraph.com/
