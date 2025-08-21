@@ -1,37 +1,25 @@
 # Linux Distributions
- 
- #### https://wiki.archlinux.org/title/Arch-based_distributions
 
- #### https://en.wikipedia.org/wiki/List_of_Linux_distributions
- 
+#### [Arch Linux Wiki](https://wiki.archlinux.org/title/Arch-based_distributions)
+
+#### [Liste der Linux-Distributionen](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
 
 ### Arch Linux
-  
-  https://archlinux.org/
-  
-  https://cachyos.org/
+
+- [Arch Linux](https://archlinux.org/)
+- [CachyOS](https://cachyos.org/)
 
 #### Cyber Security
-  
-  https://www.blackarch.org/
-  
-  https://exodia-os.github.io/
-  
+
+- [BlackArch](https://www.blackarch.org/)
+- [Exodia OS](https://exodia-os.github.io/)
 
 #### Privacy
 
-  https://www.parrotsec.org/
-
-  [Kali](https://www.kali.org/)
-
-  - Kali Purple
-
-  https://tails.net/
-
-  https://www.whonix.org/
-
-  https://www.qubes-os.org/
-
-  https://www.pureos.net/
-
-  https://subgraph.com/
+- [Parrot Security](https://www.parrotsec.org/)
+- [Kali Linux](https://www.kali.org/)
+- [Tails](https://tails.net/)
+- [Whonix](https://www.whonix.org/)
+- [Qubes OS](https://www.qubes-os.org/)
+- [PureOS](https://www.pureos.net/)
+- [Subgraph OS](https://subgraph.com/)
