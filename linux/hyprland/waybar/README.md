@@ -1,1 +1,2 @@
-https://hyprpanel.com/ a alternative to waybar
+https://hyprpanel.com/
+https://github.com/polybar/polybar
