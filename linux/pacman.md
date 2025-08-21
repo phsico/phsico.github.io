@@ -8,12 +8,12 @@
 | `-R`       | Remove packages.                                                                            |
 | `-U`       | Install packages from a local file or URL.                                                |
 | `-Q`       | Query information about installed packages.                                                |
-| `-Sy`      | Update the package database without updating installed packages.                           |
-| `-Su`      | Update all installed packages.                                                              |
 | `-Syu`     | Update the package database and all installed packages.                                    |
 | `-Rns`     | Remove a package and its unneeded dependencies.                                            |
 | `-Qqe`     | List all explicitly installed packages, including their dependencies.                      |
 | `-Qdt`     | List all installed packages that were installed as dependencies and are no longer needed. |
+| `-Sy`      | Update the package database without updating installed packages.                           |
+| `-Su`      | Update all installed packages.                                                              |
 | `-Qe`      | List all explicitly installed packages.                                                    |
 | `-Qd`      | List all unneeded packages.                                                                |
 | `-Ss`      | Search for packages in the repositories.                                                   |
