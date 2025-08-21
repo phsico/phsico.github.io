@@ -15,5 +15,3 @@
 | [Tails](https://tails.net/)               | Debian    | Anonymität und Datenschutz                  |
 | [Whonix](https://www.whonix.org/)         | Debian    | Anonymität über Tor                         |
 | [Qubes OS](https://www.qubes-os.org/)     | Fedora    | Sicherheit durch Virtualisierung            |
-| [PureOS](https://www.pureos.net/)         | Debian    | Datenschutz und Sicherheit                  |
-| [Subgraph OS](https://subgraph.com/)      | Debian    | Sicherheit und Anonymität                   |
