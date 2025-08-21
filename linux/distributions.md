@@ -2,7 +2,7 @@
 
 #### [Arch Linux Wiki](https://wiki.archlinux.org/title/Arch-based_distributions)
 
-#### [Liste der Linux-Distributionen](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
+#### [List of Linux-Distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
 
 | **Distribution**       | **Basis** | **Zweck**                                   |
 |------------------------|-----------|---------------------------------------------|
