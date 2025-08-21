@@ -4,19 +4,16 @@
 
 #### [Liste der Linux-Distributionen](https://en.wikipedia.org/wiki/List_of_Linux_distributions)
 
-### Arch Linux
-
-- [Arch Linux](https://archlinux.org/)
-- [CachyOS](https://cachyos.org/)
-- [BlackArch](https://www.blackarch.org/)
-- [Exodia OS](https://exodia-os.github.io/)
-
-#### Privacy
-
-- [Parrot Security](https://www.parrotsec.org/)
-- [Kali Linux](https://www.kali.org/)
-- [Tails](https://tails.net/)
-- [Whonix](https://www.whonix.org/)
-- [Qubes OS](https://www.qubes-os.org/)
-- [PureOS](https://www.pureos.net/)
-- [Subgraph OS](https://subgraph.com/)
+| **Distribution**       | **Basis** | **Zweck**                                   |
+|------------------------|-----------|---------------------------------------------|
+| [Arch Linux](https://archlinux.org/)      | Arch Linux | Allgemeine Nutzung, anpassbar              |
+| [CachyOS](https://cachyos.org/)           | Arch Linux | Benutzerfreundliche Arch-Variante          |
+| [BlackArch](https://www.blackarch.org/)   | Arch Linux | Penetrationstests und Sicherheitsanalysen   |
+| [Exodia OS](https://exodia-os.github.io/) | Arch Linux | Sicherheitsfokussierte Distribution         |
+| [Parrot Security](https://www.parrotsec.org/) | Debian    | Sicherheits- und Datenschutzanwendungen     |
+| [Kali Linux](https://www.kali.org/)       | Debian    | Penetrationstests und ethisches Hacken     |
+| [Tails](https://tails.net/)               | Debian    | Anonymität und Datenschutz                  |
+| [Whonix](https://www.whonix.org/)         | Debian    | Anonymität über Tor                         |
+| [Qubes OS](https://www.qubes-os.org/)     | Fedora    | Sicherheit durch Virtualisierung            |
+| [PureOS](https://www.pureos.net/)         | Debian    | Datenschutz und Sicherheit                  |
+| [Subgraph OS](https://subgraph.com/)      | Debian    | Sicherheit und Anonymität                   |
