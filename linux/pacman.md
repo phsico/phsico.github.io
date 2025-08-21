@@ -1,5 +1,7 @@
 # Pacman Flags in Arch Linux
 
+# Pacman Flags in Arch Linux
+
 | Flag        | Meaning                                                                                     |
 |-------------|---------------------------------------------------------------------------------------------|
 | `-S`       | Synchronize and install packages.                                                          |
@@ -10,6 +12,8 @@
 | `-Su`      | Update all installed packages.                                                              |
 | `-Syu`     | Update the package database and all installed packages.                                    |
 | `-Rns`     | Remove a package and its unneeded dependencies.                                            |
+| `-Qqe`     | List all explicitly installed packages, including their dependencies.                      |
+| `-Qdt`     | List all installed packages that were installed as dependencies and are no longer needed. |
 | `-Qe`      | List all explicitly installed packages.                                                    |
 | `-Qd`      | List all unneeded packages.                                                                |
 | `-Ss`      | Search for packages in the repositories.                                                   |
@@ -24,7 +28,11 @@
 | `-Qb`      | Show the build information for a package.                                                 |
 | `-Qc`      | Show the configuration files for a package.                                               |
 | `-Qp`      | Show information about a package in a local file without installing it.                   |
-| `-Qpe`     | Install packages from file.												                 |
+
+## Conclusion
+
+This table summarizes the various flags available in `pacman`, which can help you manage packages effectively in Arch Linux.
+
 
 ## Conclusion
 
