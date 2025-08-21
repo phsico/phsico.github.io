@@ -1,7 +1,5 @@
 # Pacman Flags in Arch Linux
 
-# Pacman Flags in Arch Linux
-
 | Flag        | Meaning                                                                                     |
 |-------------|---------------------------------------------------------------------------------------------|
 | `-S`       | Synchronize and install packages.                                                          |
@@ -33,7 +31,4 @@
 
 This table summarizes the various flags available in `pacman`, which can help you manage packages effectively in Arch Linux.
 
-
-## Conclusion
-
-This table summarizes the various flags available in `pacman`, which can help you manage packages effectively in Arch Linux.
+https://wiki.archlinux.org/title/Pacman
