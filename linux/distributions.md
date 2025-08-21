@@ -22,6 +22,8 @@
 
   https://www.parrotsec.org/
 
+  https://www.kali.org/
+
   https://tails.net/
 
   https://www.whonix.org/
