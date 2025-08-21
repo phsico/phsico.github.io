@@ -24,4 +24,5 @@
 ### Encryption 
 
 Root, Home, Swap
+
 Dnt encrypt boot
