@@ -22,7 +22,7 @@
 
   https://www.parrotsec.org/
 
-  https://www.kali.org/
+  [Kali](https://www.kali.org/)
 
   - Kali Purple
 
