@@ -5,8 +5,12 @@
 
 
 ### Script 
-##### curl -O https://phsico.github.io/pwd/pwd.sh
-##### wget https://phsico.github.io/pwd/pwd.sh
+```bash
+  curl -O https://phsico.github.io/pwd/pwd.sh
+```
+```bash
+  wget https://phsico.github.io/pwd/pwd.sh
+```
 
 ### Executable 
 #####chmod +x pwd.sh
