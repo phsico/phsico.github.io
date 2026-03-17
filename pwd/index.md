@@ -22,7 +22,7 @@ This script automates the diceware passphrase generation process, which involves
     *   `eff_short_wordlist_1.txt` (for 4-dice rolls)
     *   `eff_short_wordlist_2.txt` (for 4-dice rolls)
 
-Download these files from the [EFF website](https://www.eff.org/dice).
+Download these files from the [EFF website](https://www.eff.org/dice) or with the script.
 
 **Optional**: For clipboard functionality, install one of:
 *   `xclip` (Linux)
