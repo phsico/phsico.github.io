@@ -52,5 +52,3 @@
 | **LXQT**                           | Desktop Environment    | X11           | Graphical Configuration | Lightweight, modern Qt-based environment.  |
 | **Mate**                           | Desktop Environment    | X11           | Graphical Configuration | Classic desktop interface, user-friendly.  |
 
-## Conclusion
-The choice of the right window manager or desktop environment depends on your personal preferences, work style, and specific requirements.
