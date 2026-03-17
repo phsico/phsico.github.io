@@ -1,39 +1,49 @@
-Diceware Passphrase Generator Script
+---
+layout: default
+---
+
+# Diceware Passphrase Generator
+
 A bash script that generates secure passphrases using the diceware method with EFF wordlists.
 
-Overview
+## Overview
+
 This script automates the diceware passphrase generation process, which involves rolling dice and using the results to look up random words from curated wordlists. The diceware method is a well-established technique for creating memorable yet cryptographically secure passphrases.
 
-Features
-Multiple wordlist options: Choose between the EFF Large Wordlist (5 dice) or two EFF Short Wordlists (4 dice each)
-Flexible input: Specify parameters via command-line arguments or interactive prompts
-Clipboard integration: Automatically copy your generated passphrase to clipboard using xclip, xsel, or macOS pbcopy
-Validation: Input validation ensures dice rolls stay within the 1-25 range
-Clear output: Displays each dice roll sequence and the corresponding word, plus the final passphrase
-Prerequisites
-Bash shell
-EFF wordlist files in the same directory:
-eff_large_wordlist.txt (for 5-dice rolls)
-eff_short_wordlist_1.txt (for 4-dice rolls)
-eff_short_wordlist_2.txt (for 4-dice rolls)
-Download these files from the EFF website.
+## Features
 
-Optional: For clipboard functionality, install one of:
+*   Multiple wordlist options: Choose between the EFF Large Wordlist (5 dice) or two EFF Short Wordlists (4 dice each)
+*   Flexible input: Specify parameters via command-line arguments or interactive prompts
+*   Clipboard integration: Automatically copy your generated passphrase to clipboard using xclip, xsel, or macOS pbcopy
+*   Validation: Input validation ensures dice rolls stay within the 1-25 range
+*   Clear output: Displays each dice roll sequence and the corresponding word, plus the final passphrase
 
-xclip (Linux)
-xsel (Linux)
-pbcopy (macOS, built-in)
-Usage
-Basic usage (interactive)
-bash
+## Prerequisites
 
+*   Bash shell
+*   EFF wordlist files in the same directory:
+    *   `eff_large_wordlist.txt` (for 5-dice rolls)
+    *   `eff_short_wordlist_1.txt` (for 4-dice rolls)
+    *   `eff_short_wordlist_2.txt` (for 4-dice rolls)
 
+Download these files from the [EFF website](https://www.eff.org/dice).
+
+**Optional**: For clipboard functionality, install one of:
+*   `xclip` (Linux)
+*   `xsel` (Linux)
+*   `pbcopy` (macOS, built-in)
+
+## Usage
+
+### Basic usage (interactive)
+
+```bash
 ./script.sh
 With parameters
 bash
 
 
-./script.sh <num_rolls> [wordlist_choice] [clipboard_choice]
+./script.sh <num\_rolls> [wordlist\_choice] [clipboard\_choice]
 Parameters
 Parameter	Values	Description
 num_rolls	1-25	Number of words to generate
