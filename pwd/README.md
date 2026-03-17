@@ -1,15 +1,15 @@
 # EFF Dice-Generated Passphrases
 
 ### EFF 
-https://www.eff.org/dice
+##### https://www.eff.org/dice
 
 
 ### Script 
-#### curl -O https://phsico.github.io/pwd/pwd.sh
-#### wget https://phsico.github.io/pwd/pwd.sh
+##### curl -O https://phsico.github.io/pwd/pwd.sh
+##### wget https://phsico.github.io/pwd/pwd.sh
 
 ### Executable 
-chmod +x pwd.sh
+#####chmod +x pwd.sh
 
 #### Check Password strength
-https://www.passwordstrength.io/
+##### https://www.passwordstrength.io/
