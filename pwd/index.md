@@ -40,8 +40,20 @@ Download these files from the [EFF website](https://www.eff.org/dice).
 ```bash
 ./pwd.sh <num\_rolls> [wordlist\_choice] [clipboard\_choice]
 Parameters
-Parameter	Values	Description
-num_rolls	1-25	Number of words to generate
-wordlist_choice	0, 1, 2	0 = EFF Large (5 dice, default), 1 = EFF Short #1 (4 dice), 2 = EFF Short #2 (4 dice)
-clipboard_choice	0, 1, 2, 3	0 = No clipboard (default), 1 = xclip, 2 = xsel, 3 = macOS pbcopy
+Parameter	      Values	      Description
+num_rolls	      1-25	         Number of words to generate
+wordlist_choice	0, 1, 2	      0 EFF Large (5 dice, default), 1 = EFF Short #1 (4 dice), 2 = EFF Short #2 (4 dice)
+clipboard_choice	0, 1, 2, 3	   0 No clipboard (default), 1 = xclip, 2 = xsel, 3 = macOS pbcopy
+```
+
+### Example
+```bash
+❯ ./pwd.sh 3 1
+EFF Dice-Generated Passphrases
+Using wordlist: eff_short_wordlist_1.txt (4 dice rolls)
+
+5666    stock
+6314    tile
+3666    lip
+Result:  stock tile lip
 ```
