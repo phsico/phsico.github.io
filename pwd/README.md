@@ -13,7 +13,9 @@
 ```
 
 ### Executable 
-#####chmod +x pwd.sh
+```
+  chmod +x pwd.sh
+```
 
 #### Check Password strength
 ##### https://www.passwordstrength.io/
