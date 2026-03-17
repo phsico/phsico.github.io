@@ -34,7 +34,21 @@ Download these files from the [EFF website](https://www.eff.org/dice) or with th
 ### Basic usage (interactive)
 
 ```bash
-./pwd.sh
+❯ ./pwd.sh
+EFF Dice-Generated Passphrases
+Enter number of dice rolls (1-25): 3
+
+Choose wordlist:
+0 - eff_large_wordlist.txt (5 dice rolls, default)
+1 - eff_short_wordlist_1.txt (4 dice rolls)
+2 - eff_short_wordlist_2.txt (4 dice rolls)
+Enter wordlist choice (0, 1, or 2):  
+Using wordlist: eff_large_wordlist.txt (5 dice rolls)
+
+34362   idiom
+41342   mop
+56122   stack
+Result:  idiom mop stack
 ```
 
 ```bash
