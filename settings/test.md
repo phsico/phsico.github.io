@@ -15,10 +15,9 @@ source "https://rubygems.org"
 gemspec
 ```
 
-you NEED this portfolio setup on your resume
-
 
 Themes
+
 https://www.youtube.com/watch?v=81NguENBjws
 
 https://github.com/pages-themes/architect
