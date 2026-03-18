@@ -51,4 +51,3 @@
 | **LXDE**                           | Desktop Environment    | X11           | Graphical Configuration | Very lightweight, ideal for older hardware. |
 | **LXQT**                           | Desktop Environment    | X11           | Graphical Configuration | Lightweight, modern Qt-based environment.  |
 | **Mate**                           | Desktop Environment    | X11           | Graphical Configuration | Classic desktop interface, user-friendly.  |
-
