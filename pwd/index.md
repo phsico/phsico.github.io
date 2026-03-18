@@ -34,14 +34,13 @@ Download these files from the [EFF website](https://www.eff.org/dice) or with th
 ### Basic usage (interactive)
 ```bash
 ./pwd.sh <num\_rolls> [wordlist\_choice] [clipboard\_choice]
-
+```
 | Parameter | Values | Description |
 |-----------|--------|-------------|
 | `num_rolls` | 1–25 | Number of words to generate |
 | `wordlist_choice` | 0, 1, 2 | **0** = EFF Large (5 dice, default), **1** = EFF Short #1 (4 dice), **2** = EFF Short #2 (4 dice) |
 | `clipboard_choice` | 0, 1, 2, 3 | **0** = No clipboard (default), **1** = xclip, **2** = xsel, **3** = macOS pbcopy |
 
-```
 ```bash
 ❯ ./pwd.sh
 EFF Dice-Generated Passphrases
