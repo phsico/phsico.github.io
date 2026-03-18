@@ -20,5 +20,7 @@
 |     | [Ubuntu](https://ubuntu.com/)          | Independent     | A user-friendly distribution based on Debian, known for its broad community support. | General use and everyday computing.           |
 
 *Rec = Recommendation
+
 https://vanillaos.org/
 https://www.alpinelinux.org/
+https://nixos.org/
