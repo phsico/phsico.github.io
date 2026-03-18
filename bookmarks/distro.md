@@ -1,7 +1,7 @@
 # Linux OS
 
-| Rec | OS              | Base OS        | Description                                                | Main Use                                      | Website                               |
-|-----|-----------------|----------------|------------------------------------------------------------|------------------------------------------------|---------------------------------------|
+| Rec | OS              | Base OS        | Description                                                | Main Use                                      |
+|-----|-----------------|----------------|------------------------------------------------------------|------------------------------------------------|
 | x   | [Arch Linux](https://archlinux.org/)      | Independent     | A lightweight and flexible Linux distribution focused on simplicity. | General use, customization, and DIY setups.   | <link>                               |
 |     | [BlackArch](https://www.blackarch.org/)       | Arch Linux      | A penetration testing distribution for ethical hackers.    | Security testing and penetration testing tools. | <link>                               |
 | x   | [CachyOS](https://cachyos.org/)         | Arch Linux      | An easy-to-use Arch-based distribution designed for newcomers. | Everyday computing and simple setup.          | <link>                               |
