@@ -13,7 +13,7 @@
 |     | [Parrot Security](<link>)  | Debian         | Strongly focused on security, for ethical hacking and research.  | Security auditing, penetration testing.       | <link>                               |
 |     | [Kali](<link>)            | Debian          | A Debian-based distribution aimed at penetration testing and security assessments. | Security professionals and ethical hackers.    | <link>                               |
 |     | [Kodachi](<link>)         | Debian          | A security-focused Linux that runs from RAM, designed for privacy. | Secure and anonymous internet browsing.        | <link>                               |
-|     | [Linux Mint](<link>)      | Ubuntu          | A user-friendly distribution based on Ubuntu, known for its stability.  | General use with an emphasis on ease of use.  | <link>                               |
+|     | [Linux Mint](https://linuxmint.com/)      | Ubuntu          | A user-friendly distribution based on Ubuntu, known for its stability.  | General use with an emphasis on ease of use.  | <link>                               |
 |     | [Nobara](<link>)          | Fedora          | A gaming-focused distribution that packages everything out of the box. | Gaming and multimedia work.                    | <link>                               |
 |     | [Fedora](<link>)          | Red Hat         | A cutting-edge, stable distribution that integrates the latest technologies.  | Developers and enthusiasts.                    | <link>                               |
 |     | [Qubes](<link>)           | Fedora (and others) | A security-oriented desktop OS that uses virtualization for apps. | High security and safety against malware.     | <link>                               |
