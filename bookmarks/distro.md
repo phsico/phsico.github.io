@@ -18,4 +18,6 @@
 |                | Kali          | Debian          | A Debian-based distribution aimed at penetration testing and security assessments. | Security professionals and ethical hackers.    |
 |                | Fedora        | Red Hat         | A cutting-edge, stable distribution that integrates the latest technologies.  | Developers and enthusiasts.                    |
 |                | Linux Mint    | Ubuntu          | A user-friendly distribution based on Ubuntu, known for its stability.  | General use with an emphasis on ease of use.  |
+
+
 *Rec = Recommendation
