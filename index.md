@@ -8,7 +8,7 @@ Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [themes.md](./themes.md).
 
-[EFF Generator](./pwd/index.md).
+[EFF Generator](./pwd/index.html).
 
 There should be whitespace between paragraphs.
 
