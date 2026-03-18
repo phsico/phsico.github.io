@@ -1,4 +1,4 @@
-# Diceware Passphrase Generator
+# Passphrase Generator
 
 A bash script that generates secure passphrases using the diceware method with EFF wordlists.
 
