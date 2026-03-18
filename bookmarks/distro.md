@@ -26,3 +26,5 @@ https://vanillaos.org/
 https://www.alpinelinux.org/
 
 https://nixos.org/
+
+https://zorin.com/
