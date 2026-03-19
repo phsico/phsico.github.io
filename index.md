@@ -3,8 +3,5 @@
 
 
 
-[Link to another page](./another-page.html).
-
-[themes.md](./themes.html).
 
 [EFF Generator](./pwd/index.html).
