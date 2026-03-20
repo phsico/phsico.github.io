@@ -1,7 +1,5 @@
 # Linux Filesystem Directory Structure
 
-Here's a comprehensive list of the standard Linux filesystem hierarchy:
-
 |Directory|Purpose|
 |---|---|
 |`/`|Root directory - the top of the entire filesystem tree|
