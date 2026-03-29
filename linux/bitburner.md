@@ -41,3 +41,20 @@ run n00dles.js
 
 tail n00dles.js
 
+
+
+```js
+/** @param {NS} ns */
+export async function main(ns) {
+  while(true){
+      if getServerSecurityLevel >= 1.01{
+        await ns.weaken(ns.getHostname)
+      } else if getServerMoneyAvailable >= 1.000m{
+        await ns.grow(ns.getHostname)
+      } else {
+        await ns.hack(ns.getHostname)
+      }
+    }
+  }
+}
+```
