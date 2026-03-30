@@ -44,17 +44,24 @@ tail n00dles.js
 
 
 ```js
-/** @param {NS} ns */
+/** @param {import(".").NS } ns */
 export async function main(ns) {
-  while(true){
-      if getServerSecurityLevel >= 1.01{
-        await ns.weaken(ns.getHostname)
-      } else if getServerMoneyAvailable >= 1.000m{
-        await ns.grow(ns.getHostname)
-      } else {
-        await ns.hack(ns.getHostname)
-      }
-    }
+  const target = ns.args[0];           // company name passed as argument
+  if (!target) {
+    ns.tprint("Usage: run script.js <companyName>");
+    return;
   }
+
+  const cycles = 3;                    // repeat grow+weaken this many times
+  for (let i = 0; i < cycles; i++) {
+    // grow
+    await ns.grow(target);
+    // weaken
+    await ns.weaken(target);
+  }
+
+  // final hack
+  await ns.hack(target);
 }
+
 ```
