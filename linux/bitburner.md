@@ -44,43 +44,25 @@ tail n00dles.js
 
 
 ```js
-/** @param {import(".").NS } ns */
-export async function main(ns) {
-  const target = ns.args[0];           // company name passed as argument
-  if (!target) {
-    ns.tprint("Usage: run script.js <companyName>");
-    return;
-  }
-
-  const cycles = 3;                    // repeat grow+weaken this many times
-  for (let i = 0; i < cycles; i++) {
-    // grow
-    await ns.grow(target);
-    // weaken
-    await ns.weaken(target);
-  }
-
-  // final hack
-  await ns.hack(target);
-}
-
-
-```
-
-
-```js
 export async function main(ns) {
     var target = ns.args[0];
-    var securityThresh = ns.getServerMinSecurityLevel(target) + 5;
-    var moneyThresh = ns.getServerMaxMoney(target) * 0.75;
+    var securityLevel = ns.getServerSecurityLevel(target)
+    var securityThresh = ns.getServerMinSecurityLevel(target) * 3
+    var serverMoney = ns.getServerMoneyAvailable(target)
+    var moneyThresh = ns.getServerMaxMoney(target) * 0.8
 
     while (true) {
-        if (ns.getServerSecurityLevel(target) > securityThresh) {
-            await ns.weaken(target);
-        } else if (ns.getServerMoneyAvailable(target) > moneyThresh) {
-            await ns.grow(target);
+        if (securityLevel > securityThresh) {
+            await ns.weaken(target)
+            var securityLevel = ns.getServerSecurityLevel(target)
+            var securityThresh = ns.getServerMinSecurityLevel(target) * 3
+        } else if (serverMoney < moneyThresh) {
+            await ns.grow(target)
+            var serverMoney = ns.getServerMoneyAvailable(target)
+            var moneyThresh = ns.getServerMaxMoney(target) * 0.8
         } else {
-            await ns.hack(target);
+            await ns.hack(target)
+            var serverMoney = ns.getServerMoneyAvailable(target)
         }
     }
 }
