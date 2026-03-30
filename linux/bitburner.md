@@ -68,7 +68,7 @@ export async function main(ns) {
 ```
 
 
-```
+```js
 export async function main(ns) {
     var target = ns.args[0];
     var securityThresh = ns.getServerMinSecurityLevel(target) + 5;
