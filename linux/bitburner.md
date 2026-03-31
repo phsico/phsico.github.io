@@ -171,4 +171,64 @@ const serv0 = ["darkweb", //1
   const serv6 = ["alpha-ent", //507
     "lexo-corp" //691
   ]
-``` 
+```
+
+## All server
+```js
+const allServers = [
+  //0GB
+  ["darkweb", //1
+  "crush-fitness", //251
+  "johnson-ortho", //284
+  "computek", //367
+  "syscore", //580
+  "snap-fitness", //778
+  "zb-def", //790
+  "zeus-med", //814
+  "galactic-cyber", //831
+  "nova-med", //832
+  "deltaone", //856
+  "infocomm", //879
+  "aerocorp", //886
+  "taiyang-digital", //894
+  "icarus", //900
+  "defcomm"], //933
+  //4GB
+  ["n00dles"], //1
+  //8GB
+  ["CSEC", //57
+  "the-hub"], //322
+  //16GB
+  ["foodnstuff", //1
+  "sigma-cosmetics", //5
+  "joesguns", //10
+  "nectar-net", //20
+  "hong-fang-tea", //30
+  "harakiri-sushi", //40
+  "aevum-police", //405
+  "catalyst", //445
+  "summit-uni", //453
+  "solaris", //759
+  "unitalife", //796
+  "univ-energy", //827
+  "omnia"], //898
+  //32GB
+  ["neo-net", //50
+  "zer0", //75
+  "max-hardware", //80
+  "phantasy", //100
+  "iron-gym", //100
+  "omega-net", //205
+  "rothman-uni", //395
+  "millenium-fitness", //482
+  "global-pharm"], //767
+  //64GB
+  ["silver-helix", //150
+  "avmnite-02h", //203
+  "netlink", //420
+  "zb-institute"], //728
+  //128GB
+  ["alpha-ent", //507
+  "lexo-corp"] //691
+];
+```
