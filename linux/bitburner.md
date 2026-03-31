@@ -23,72 +23,75 @@ export async function main(ns) {
   }
 }
 ```
+## allServer.js
+```js
+export const allServers = [
+  //0GB
+  ["darkweb", //1
+    "crush-fitness", //251
+    "johnson-ortho", //284
+    "computek", //367
+    "syscore", //580
+    "snap-fitness", //778
+    "zb-def", //790
+    "zeus-med", //814
+    "galactic-cyber", //831
+    "nova-med", //832
+    "deltaone", //856
+    "infocomm", //879
+    "aerocorp", //886
+    "taiyang-digital", //894
+    "icarus", //900
+    "defcomm"], //933
+  //4GB
+  ["n00dles"], //1
+  //8GB
+  ["CSEC", //57
+    "the-hub"], //322
+  //16GB
+  ["foodnstuff", //1
+    "sigma-cosmetics", //5
+    "joesguns", //10
+    "nectar-net", //20
+    "hong-fang-tea", //30
+    "harakiri-sushi", //40
+    "aevum-police", //405
+    "catalyst", //445
+    "summit-uni", //453
+    "solaris", //759
+    "unitalife", //796
+    "univ-energy", //827
+    "omnia"], //898
+  //32GB
+  ["neo-net", //50
+    "zer0", //75
+    "max-hardware", //80
+    "phantasy", //100
+    "iron-gym", //100
+    "omega-net", //205
+    "rothman-uni", //395
+    "millenium-fitness", //482
+    "global-pharm"], //767
+  //64GB
+  ["silver-helix", //150
+    "avmnite-02h", //203
+    "netlink", //420
+    "zb-institute"], //728
+  //128GB
+  ["alpha-ent", //507
+    "lexo-corp"] //691
+];
+```
+
 ## server.js
 ```js
+import { allServers } from "allServers.js"
 /** @param {NS} ns */
 export async function main(ns) {
   const files = "script.js";
   const boss = ns.args[0];
   // Thread counts for each server group
   const threadCounts = [1, 1, 2, 6, 12, 24, 48];
-
-  const allServers = [
-    //0GB
-    ["darkweb", //1
-      "crush-fitness", //251
-      "johnson-ortho", //284
-      "computek", //367
-      "syscore", //580
-      "snap-fitness", //778
-      "zb-def", //790
-      "zeus-med", //814
-      "galactic-cyber", //831
-      "nova-med", //832
-      "deltaone", //856
-      "infocomm", //879
-      "aerocorp", //886
-      "taiyang-digital", //894
-      "icarus", //900
-      "defcomm"], //933
-    //4GB
-    ["n00dles"], //1
-    //8GB
-    ["CSEC", //57
-      "the-hub"], //322
-    //16GB
-    ["foodnstuff", //1
-      "sigma-cosmetics", //5
-      "joesguns", //10
-      "nectar-net", //20
-      "hong-fang-tea", //30
-      "harakiri-sushi", //40
-      "aevum-police", //405
-      "catalyst", //445
-      "summit-uni", //453
-      "solaris", //759
-      "unitalife", //796
-      "univ-energy", //827
-      "omnia"], //898
-    //32GB
-    ["neo-net", //50
-      "zer0", //75
-      "max-hardware", //80
-      "phantasy", //100
-      "iron-gym", //100
-      "omega-net", //205
-      "rothman-uni", //395
-      "millenium-fitness", //482
-      "global-pharm"], //767
-    //64GB
-    ["silver-helix", //150
-      "avmnite-02h", //203
-      "netlink", //420
-      "zb-institute"], //728
-    //128GB
-    ["alpha-ent", //507
-      "lexo-corp"] //691
-  ];
-
   // Wait for all exploit tools
   const requiredFiles = ["BruteSSH.exe", "FTPCrack.exe", "relaySMTP.exe", "HTTPWorm.exe", "SQLInject.exe"];
   for (const file of requiredFiles) {
@@ -125,81 +128,34 @@ async function setupServer(ns, target, files, threads, boss) {
 
 ### hsetup.js
 ```js 
-
 /** @param {NS} ns */
 export async function main(ns) {
-  var byte = 1020
-  var file = 2.4
-  var calc = (byte / file) - 1
-  var files = "script.js"
-  var boss = "iron-gym"
-  var home = "home"
-  
-  //ns.exec("qsetup.js", "home", 1, boss)
-  ns.exec("server.js", home, 1, boss)
-  //ns.tail("server.js", home, boss)
-  await ns.sleep(100)
-  ns.print(byte + " / " + file + " = "  + calc + "\n")
-  ns.exec(files, "home", calc, boss)
-}
-```
+  const files = "script.js";
+  const boss = "iron-gym";
+  const home = "home";
 
-## All server
-```js
-const allServers = [
-  //0GB
-  ["darkweb", //1
-  "crush-fitness", //251
-  "johnson-ortho", //284
-  "computek", //367
-  "syscore", //580
-  "snap-fitness", //778
-  "zb-def", //790
-  "zeus-med", //814
-  "galactic-cyber", //831
-  "nova-med", //832
-  "deltaone", //856
-  "infocomm", //879
-  "aerocorp", //886
-  "taiyang-digital", //894
-  "icarus", //900
-  "defcomm"], //933
-  //4GB
-  ["n00dles"], //1
-  //8GB
-  ["CSEC", //57
-  "the-hub"], //322
-  //16GB
-  ["foodnstuff", //1
-  "sigma-cosmetics", //5
-  "joesguns", //10
-  "nectar-net", //20
-  "hong-fang-tea", //30
-  "harakiri-sushi", //40
-  "aevum-police", //405
-  "catalyst", //445
-  "summit-uni", //453
-  "solaris", //759
-  "unitalife", //796
-  "univ-energy", //827
-  "omnia"], //898
-  //32GB
-  ["neo-net", //50
-  "zer0", //75
-  "max-hardware", //80
-  "phantasy", //100
-  "iron-gym", //100
-  "omega-net", //205
-  "rothman-uni", //395
-  "millenium-fitness", //482
-  "global-pharm"], //767
-  //64GB
-  ["silver-helix", //150
-  "avmnite-02h", //203
-  "netlink", //420
-  "zb-institute"], //728
-  //128GB
-  ["alpha-ent", //507
-  "lexo-corp"] //691
-];
+  // Get available RAM
+  const maxRam = ns.getServerMaxRam(home);
+  const usedRam = ns.getServerUsedRam(home);
+  const availableRam = maxRam - usedRam;
+
+  // Get script RAM cost
+  const scriptRamCost = ns.getScriptRam(files, home);
+
+  // Calculate how many threads we can run
+  const threads = Math.floor(availableRam / scriptRamCost);
+
+  ns.print(`Home RAM: ${usedRam}GB / ${maxRam}GB\n`);
+  ns.print(`Available: ${availableRam}GB\n`);
+  ns.print(`Script cost: ${scriptRamCost}GB per thread\n`);
+  ns.print(`Can run ${threads} threads\n`);
+
+  // Start server setup
+  ns.exec("server.js", home, 1, boss);
+  await ns.sleep(100);
+
+  // Execute script with calculated threads
+  ns.exec(files, home, threads, boss);
+}
+
 ```
