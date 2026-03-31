@@ -57,7 +57,7 @@ export async function main(ns) {
     const target = servers0Port[i];
     if (!boss) {
       var boss = target
-    }else {
+    } else {
       var boss = boss
     }
     ns.scp(files, target);
@@ -76,7 +76,7 @@ export async function main(ns) {
     const target = servers1Port[i];
     if (!boss) {
       var boss = target
-    }else {
+    } else {
       var boss = boss
     }
     ns.scp(files, target);
@@ -94,13 +94,13 @@ export async function main(ns) {
     const target = servers2Port[i];
     if (!boss) {
       var boss = target
-    }else {
+    } else {
       var boss = boss
     }
     ns.scp(files, target);
     ns.brutessh(target);
     ns.ftpcrack(target);
-    
+
     ns.nuke(target);
     //ns.killall(target)
     ns.exec(files, target, 8, boss);
